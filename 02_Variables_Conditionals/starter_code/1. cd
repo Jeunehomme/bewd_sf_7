@@ -1,0 +1,15 @@
+1. cd
+2. Git is a version control system.  GitHub is a web service that allows you to publish and back up your repositories, as well as collaborate with other programmers by making use of their repositories.
+3. 
+mkdir quiz
+cd quiz
+ls
+touch quiz.rb
+ls
+git init
+git add quiz.rb
+git status
+git commit -m "adding quiz"
+git status
+4. A place where files are stored, tracked using git and accessible through GitHub.
+5. c

@@ -1,0 +1,10 @@
+Teach a robot how to drive:
+
+1. Locate the car.
+2. Unlock it remotely.
+3. Locate the driver's door.
+4. Locate handle.
+5. Pull handle.
+6. Stop pulling when the door is at a 45 degree angle.
+7. Let go of door handle.
+8. 

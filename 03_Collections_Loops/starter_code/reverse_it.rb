@@ -7,6 +7,22 @@ require 'pry-byebug'
 
 def my_reverse(string)
   #use some sort of looping here 
+  test = string.downcase.split("")
+  result = []
+  i = 0
+  while i < string.length do
+  	interim = test.shift
+  	result.unshift(interim)
+  	i = i+1
+  end
+  return result.join.capitalize
+
+  # char = string.downcase.chars
+  # word = ""
+  # until char.length == 0
+  # 	word << char.pop
+  # end
+  # word.capitalize
 end
 
 def is_palindrome?(word)
